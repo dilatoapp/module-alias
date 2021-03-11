@@ -188,7 +188,7 @@ function init (options) {
   // Import aliases
   //
 
-  var aliases = npmPackage._moduleAliases || {}
+  var aliases = npmPackage.moduleAliases || {}
 
   for (var alias in aliases) {
     if (aliases[alias][0] !== '/') {
